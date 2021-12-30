@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;500&display=swap');
+
+* {
+  font-size: 45px;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.App {
+  font-family: 'Source Code Pro', monospace;
+  min-height: 100vh;
+  padding-top: 20px;
+  background-color: rgba(44, 187, 203, 0.932);
+}
+
+.calculator {
+  margin:auto;
+  width: 400px;
+  height: 770px;
+  border-radius: 60px;
+  box-shadow: 0px 2px 128px rgba(0,0,0,0.15);
+  background-color: rgb(215, 157, 253);
+}
+
+button {
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  height: 90px;
+  width: 90px;
+  background-color: aliceblue;
+  appearance: none;
+  margin: 4px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  transition: 80ms;
+}
+
+button:hover {
+  background-color: rgb(255, 230, 193);
+  border-radius: 40px;
+}
+
+.flex-container {
+  justify-content: center;
+  display: flex;
+}
+
+.left-section {
+  flex-shrink: 0;
+}
+
+.right-section {
+  flex-shrink: 0;
+}
+
+.subdisplay {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+  color:dimgrey;
+}
+
+.display {
+  padding: 15px;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.operators {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px 24px;
+}
+
+.operators button {
+  width: 80px;
+  height: 80px;
+}
+
+.operators button:hover {
+  border-radius: 35px;
+}
+
+.functions {
+  padding: 0px 10px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.functions button {
+  font-size: 26px;
+}
+
+.numbers {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  column-gap: 20px;
+  row-gap: 5px;
+  margin: 0px 20px
+}
