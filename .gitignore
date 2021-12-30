@@ -1,5 +1,6 @@
 # dependencies
-/node_modules
+simple-calc-node/node_modules
+simple-calc-react/node_modules
 /.pnp
 .pnp.js
 
