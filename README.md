@@ -1,4 +1,4 @@
-### SimpleCalc
+# SimpleCalc
 A Simple Calculator project made for a Coding Challenge as part of an interview process.
 
 ## Functions
